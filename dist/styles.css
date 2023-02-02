@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  display: grid;
+  grid-template-rows: 150px 50px 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+.header {
+  grid-row: 1/2;
+  align-self: end;
+}
+
+.menubar {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100vw;
+  border-bottom: white solid 1px;
+}
+
+.maincontent {
+  grid-row: 3/4;
+  border: white solid 3px;
+  width: 30vw;
+  margin-top: 15vh;
+}
