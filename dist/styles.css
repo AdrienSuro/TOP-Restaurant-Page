@@ -9,7 +9,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 150px 50px 1fr;
+  grid-template-rows: 120px 50px 1fr;
   justify-content: center;
   justify-items: center;
 }
@@ -28,9 +28,9 @@ body {
   border-bottom: white solid 1px;
 }
 
-.maincontent {
+#maincontent {
   grid-row: 3/4;
   border: white solid 3px;
-  width: 30vw;
+  width: 50vw;
   margin-top: 15vh;
 }
