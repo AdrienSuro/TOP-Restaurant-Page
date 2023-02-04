@@ -1,5 +1,10 @@
+* {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body {
-  background-color: black;
+  z-index: 0;
+  background-color: red;
   color: white;
   margin: 0;
   overflow: hidden;
@@ -16,7 +21,8 @@ body {
 
 .header {
   grid-row: 1/2;
-  align-self: end;
+  font-size: 50px;
+  align-self: bottom;
 }
 
 .menubar {
@@ -29,8 +35,10 @@ body {
 }
 
 #maincontent {
+  justify-self: left;
   grid-row: 3/4;
-  border: white solid 3px;
-  width: 50vw;
-  margin-top: 15vh;
+  font-size: 50px;
+  width: 70vw;
+  margin-top: 40vh;
+  margin-left: 15vh;
 }
